@@ -1,5 +1,5 @@
 # Use a lightweight Nginx base image
-FROM nginx:alpine
+FROM docker.io/library/nginx:alpine
 
 # Copy all files from the repo into Nginx's default web directory
 COPY . /usr/share/nginx/html
